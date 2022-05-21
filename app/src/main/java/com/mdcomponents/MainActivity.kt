@@ -7,8 +7,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.mdcomponents.adapter.ComponentAdapter
 import com.mdcomponents.adapter.OnClickListener
 import com.mdcomponents.entity.Component
+import com.mdcomponents.fragments.BottomNavigationFragment
 import com.mdcomponents.fragments.ButtonFragment
 import com.mdcomponents.fragments.SnackBarFragment
+import com.mdcomponents.fragments.TextFieldFragment
 import com.mdcomponents.utils.Constants
 
 class MainActivity : AppCompatActivity(), OnClickListener {
@@ -29,7 +31,9 @@ class MainActivity : AppCompatActivity(), OnClickListener {
     private fun configAdapter() {
         adapter = ComponentAdapter()
         adapter.add(ButtonFragment.getmInstance())
+        adapter.add(TextFieldFragment.getmInstance())
         adapter.add(SnackBarFragment.getmInstance())
+        adapter.add(BottomNavigationFragment.getmInstance())
         adapter.setOnItemClickListener(this)
 
         /**
