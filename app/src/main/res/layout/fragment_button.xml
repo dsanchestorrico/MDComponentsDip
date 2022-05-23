@@ -115,5 +115,53 @@
         app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintBottom_toBottomOf="@id/btnEnable"
         app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/tvDisabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disabled"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toBottomOf="@id/btnDisable"
+        app:layout_constraintTop_toTopOf="@id/btnDisable"/>
+    <TextView
+        android:id="@+id/tvUnelevated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unelevated Enabled"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/btnUnelevateEnable"
+        app:layout_constraintTop_toTopOf="@+id/btnUnelevateEnable"/>
+    <TextView
+        android:id="@+id/tvOutline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outline"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/btnOutline"
+        app:layout_constraintTop_toTopOf="@+id/btnOutline"/>
+    <TextView
+        android:id="@+id/tvBtnIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn Icon"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/btnIconEnable"
+        app:layout_constraintTop_toTopOf="@+id/btnIconEnable"/>
+    <TextView
+        android:id="@+id/tvBtnIconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn Icon Text"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/btnIconTextEnable"
+        app:layout_constraintTop_toTopOf="@+id/btnIconTextEnable"/>
+    <TextView
+        android:id="@+id/tvBtnIconCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn Icon Text"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCustom"
+        app:layout_constraintTop_toTopOf="@+id/btnCustom"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
